@@ -16,8 +16,10 @@ async function getdata(url) {
     console.log(data);
     if (response) {
         data.forEach(element => {
+          if(element.show.image!=null){
             console.log(element.show.image['original']);
             imagesArray.push(element.show.image['original']);
+          } 
         });
         console.log(imagesArray);
     }
