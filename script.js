@@ -6,7 +6,7 @@ searchbtn.addEventListener("click", (input) => {
     url = `https://api.tvmaze.com/search/shows?q=${input}`;
     getdata(url);
 });
-
+getdata("https://api.tvmaze.com/search/shows?q=spiderman");
 imagesArray = [];
 
 async function getdata(url) {
