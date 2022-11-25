@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color: grey;
+}
+.container {
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+}
+.container h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+.container .inner {
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+
+}
+.container input[type='text'] {
+    width: 35%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 12px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgb(208, 208, 208);
+    font-size: 20px;
+    
+}
+.container input[type='submit'] {
+    width: 10%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 12px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgb(208, 208, 208);
+    font-size: 20px;
+}
+.container-radio {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    margin: auto;
+    width: fit-content;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="radio"] {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+.card {
+    width: 4px;
+    height: 45px;
+}
+img {
+    width:100%
+}
+.inner-movie {
+    display: flex;
+    flex-direction: row;
+}
